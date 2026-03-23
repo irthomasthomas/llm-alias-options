@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: llm-alias-options
+Version: 0.1
+Summary: LLM plugin to save prompt options alongside an alias
+Author-email: Thomas Hughes <irthomasthomas@gmail.com>
+License: Apache-2.0
+Requires-Dist: llm>=0.18

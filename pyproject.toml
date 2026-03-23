@@ -1,0 +1,25 @@
+[project]
+name = "llm-alias-options"
+version = "0.1"
+description = "LLM plugin to save prompt options alongside an alias"
+readme = "README.md"
+authors = [{name = "Thomas Hughes", email = "irthomasthomas@gmail.com"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm>=0.18",
+]
+
+[project.urls]
+Homepage = "https://github.com/irthomasthomas/llm-alias-options"
+Changelog = "https://github.com/irthomasthomas/llm-alias-options/releases"
+Issues = "https://github.com/irthomasthomas/llm-alias-options/issues"
+
+[project.entry-points."llm"]
+alias_options = "llm_alias_options"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
