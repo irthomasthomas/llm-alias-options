@@ -1,6 +1,6 @@
 [project]
 name = "llm-alias-options"
-version = "0.1"
+version = "0.1.1"
 description = "LLM plugin to save prompt options alongside an alias"
 readme = "README.md"
 authors = [{name = "Thomas Hughes", email = "irthomasthomas@gmail.com"}]
